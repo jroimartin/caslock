@@ -18,7 +18,7 @@ var (
 	// must added to the desired column family before using caslock.
 	LockColumn = "[lock]"
 
-	// RetryTime is time beteween retries when a row has been locked by
+	// RetryTime is the time beteween retries when a row has been locked by
 	// another process.
 	RetryTime = 500 * time.Millisecond
 
