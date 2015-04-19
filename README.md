@@ -8,7 +8,7 @@ protecting them from concurrent access.
 
 ## Usage
 
-```
+```go
 l, err := caslock.Acquire(session, "keyspace", "table",
 	30 * time.Second, "rowKey1", "rowKey2")
 if err != nil {
